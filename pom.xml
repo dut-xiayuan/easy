@@ -7,10 +7,10 @@
   <name>easyrent Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.0.BUILD-SNAPSHOT</version>
-    </parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>1.4.0.BUILD-SNAPSHOT</version>
+  </parent>
 
     <repositories>
         <repository>
