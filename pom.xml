@@ -50,6 +50,12 @@
 	       <groupId>mysql</groupId>
 	       <artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<!-- mybatis驱动 -->
+		<dependency>
+		    <groupId>org.mybatis.spring.boot</groupId>
+		    <artifactId>mybatis-spring-boot-starter</artifactId>
+		    <version>1.1.1</version>
+		</dependency>
     </dependencies>
 
     <!-- Package as an executable jar -->
