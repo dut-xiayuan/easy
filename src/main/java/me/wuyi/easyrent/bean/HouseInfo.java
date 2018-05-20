@@ -6,7 +6,7 @@ public class HouseInfo {
     private String houseType;
     private String sourceFrom;
     private String rentType;
-    private boolean isMainroom;
+    private String roomType;
     private String genderLimit;
     private String houseLink;
     private String topicDesc;
@@ -57,12 +57,12 @@ public class HouseInfo {
         this.rentType = rentType;
     }
 
-    public boolean isMainroom() {
-        return isMainroom;
+    public String getRoomType() {
+        return roomType;
     }
 
-    public void setMainroom(boolean mainroom) {
-        isMainroom = mainroom;
+    public void setRoomType(String roomType) {
+        this.roomType = roomType;
     }
 
     public String getGenderLimit() {
