@@ -60,7 +60,7 @@ public class DoubanCrawler extends WebCrawler {
     }
 
     public void visit(Page page) {
-        HouseInfo houseInfo = handler.handle(page);
+        HouseInfo houseInfo = handler.handle(page, this.getMyController().getCustomData().toString());
         houseInfoDao.insert(houseInfo);
     }
 

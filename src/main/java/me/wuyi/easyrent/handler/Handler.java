@@ -5,4 +5,5 @@ import me.wuyi.easyrent.bean.HouseInfo;
 
 public interface Handler {
     HouseInfo handle(Page page);
+    HouseInfo handle(Page page, String city);
 }
